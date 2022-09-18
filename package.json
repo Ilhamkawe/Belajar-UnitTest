@@ -1,0 +1,25 @@
+{
+  "name": "belajar_unit_test",
+  "version": "1.0.0",
+  "description": "belajar implementasi unit test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "jest": {
+    "verbose" : true, 
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "author": "kawe",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.19.1",
+    "babel-jest": "^29.0.3",
+    "jest": "^29.0.3"
+  }
+}
