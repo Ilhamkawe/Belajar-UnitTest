@@ -10,7 +10,8 @@
     "verbose" : true, 
     "transform": {
       "^.+\\.[t|j]sx?$": "babel-jest"
-    }
+    }, 
+    "collectCoverage" : true
   },
   "author": "kawe",
   "license": "ISC",
